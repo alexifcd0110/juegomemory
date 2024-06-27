@@ -1,0 +1,15 @@
+:root {
+  --bg: #fafafa;
+  --font: "Archivo", sans-serif;
+  --font-display: "Archivo Narrow", sans-serif;
+  --bluey: #324995;
+  --sky: #1c8ebe;
+  --gradient: linear-gradient(35deg, var(--sky), var(--bluey));
+}
+
+body {
+  margin: auto;
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: var(--font);
+}
